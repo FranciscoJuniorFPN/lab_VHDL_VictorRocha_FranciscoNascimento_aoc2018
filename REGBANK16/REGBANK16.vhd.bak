@@ -1,0 +1,54 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_ARITH.ALL;
+USE IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity REGBANK16 is 
+port(
+	ReadReg1	:	in 	std_logic_vector(4 downto 0);
+	ReadReg2	:	in 	std_logic_vector(4 downto 0);
+	WriteReg	: 	in 	std_logic_vector(4 downto 0);
+	WriteData:	in 	std_logic_vector(15 downto 0);
+	RegWrite	: 	in		std_logic;
+	ReadData1: 	out 	std_logic_vector(15 downto 0);
+	ReadData2:	out 	std_logic_vector(15 downto 0)
+);
+end REGBANK16;
+
+architecture REGBANK16_BH of REGBANK16 is
+
+	type REGBANKTYPE is array (0 to 15) of
+	std_logic_vector(15 downto 0);
+	
+	signal ARRAYREG : REGBANKTYPE := (
+			x"0000000000000001",
+			x"0000000000000010",
+			x"0000000000000100",
+			x"0000000000001000",
+			x"0000000000010000",
+			x"0000000000100000",
+			x"0000000001000000",
+			x"0000000010000000",
+			x"0000000100000000",
+			x"0000001000000000",
+			x"0000010000000000",
+			x"0000100000000000",
+			x"0001000000000000",
+			x"0010000000000000",
+			x"0100000000000000",
+			x"1000000000000000",
+	);
+	
+begin 
+	
+	process(RegWrite)
+	begin
+		if( RegWrite = '1' ) then 
+			ARRAYREG(to_integer(unsigned(WriteReg))) <= WriteData;
+		end if;
+	end process;
+	
+	ReadData1 <= ARRAYREG(to_integer(unsigned(ReadReg1)));
+	ReadData2 <= ARRAYREG(to_integer(unsigned(ReadReg2)));
+
+end REGBANK16_BH;

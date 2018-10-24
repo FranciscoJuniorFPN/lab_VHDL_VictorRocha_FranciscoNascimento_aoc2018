@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Pichau/Documents/REGBANK16/simulation/qsim
+Eregbank16
+Z1 w1540343698
+Z2 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 cD3@N^MdoDolN5@R6?T[V1
+Z3 DPx8 cyclonev 19 cyclonev_components 0 22 3BCIeZzdIHLCX<;R;K38G3
+Z4 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 PQDYM9fR]Wek<A7X8bA8S1
+Z5 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z6 DPx6 altera 11 dffeas_pack 0 22 >EJOc2K4@P4f?njWHdOcd0
+Z7 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z10 DPx6 altera 28 altera_primitives_components 0 22 14j`ZKHCzSI;]V?hmAE6_1
+R0
+Z11 8REGBANK16.vho
+Z12 FREGBANK16.vho
+l0
+L39
+VRO2O;T6fB4Yz3I7B0e8@a2
+!s100 Mj59XhIiHW2>5^MgcZNe_2
+Z13 OV;C;10.5b;63
+32
+Z14 !s110 1540343699
+!i10b 1
+Z15 !s108 1540343699.000000
+Z16 !s90 -work|work|REGBANK16.vho|
+Z17 !s107 REGBANK16.vho|
+!i113 1
+Z18 o-work work
+Z19 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+DEx4 work 9 regbank16 0 22 RO2O;T6fB4Yz3I7B0e8@a2
+l958
+L51
+VzPDCinMQ?f0YSHPVTEC^B2
+!s100 `f<2IT9?I;KgZ3C]IYkTL2
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 1
+R18
+R19
+Eregbank16_vhd_vec_tst
+Z20 w1540343696
+R8
+R9
+R0
+Z21 8Waveform.vwf.vht
+Z22 FWaveform.vwf.vht
+l0
+L32
+VOlT=WI[IP21z6HQdejLKC0
+!s100 [N;fYI`LYR7NZc?3JAmRE2
+R13
+32
+R14
+!i10b 1
+R15
+Z23 !s90 -work|work|Waveform.vwf.vht|
+Z24 !s107 Waveform.vwf.vht|
+!i113 1
+R18
+R19
+Aregbank16_arch
+R8
+R9
+Z25 DEx4 work 21 regbank16_vhd_vec_tst 0 22 OlT=WI[IP21z6HQdejLKC0
+l55
+L34
+V?e?9_SIj7a_8AVKcP1I5>0
+!s100 7R;mAIAajA?`[Z2_eDk:Y1
+R13
+32
+R14
+!i10b 1
+R15
+R23
+R24
+!i113 1
+R18
+R19
