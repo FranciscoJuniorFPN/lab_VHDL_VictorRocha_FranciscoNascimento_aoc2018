@@ -1,0 +1,161 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "DATAOUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAOUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAOUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAOUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAOUT[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAOUT[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAOUT[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAOUT[7]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAOUT[8]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAOUT[9]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAOUT[10]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAOUT[11]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAOUT[12]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAOUT[13]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAOUT[14]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAOUT[15]",
+					"strict" : false
+				},
+				{
+					"name" : "ROW",
+					"strict" : false
+				},
+				{
+					"name" : "CLOCK",
+					"strict" : false
+				},
+				{
+					"name" : "DATAIN[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDRESS[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDRESS[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDRESS[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDRESS[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAIN[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAIN[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAIN[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAIN[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAIN[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAIN[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAIN[7]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAIN[8]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAIN[9]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAIN[10]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAIN[11]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAIN[12]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAIN[13]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAIN[14]",
+					"strict" : false
+				},
+				{
+					"name" : "DATAIN[15]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

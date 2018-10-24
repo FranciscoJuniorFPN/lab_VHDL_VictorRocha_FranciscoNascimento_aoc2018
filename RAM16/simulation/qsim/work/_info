@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Pichau/Documents/RAM16/simulation/qsim
+Eram16
+Z1 w1540345574
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 cD3@N^MdoDolN5@R6?T[V1
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx8 cyclonev 19 cyclonev_components 0 22 3BCIeZzdIHLCX<;R;K38G3
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z8 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 PQDYM9fR]Wek<A7X8bA8S1
+R0
+Z9 8RAM16.vho
+Z10 FRAM16.vho
+l0
+L37
+VGX;MaDgS2YP=N9B7fnf150
+!s100 ljh@[g@[DcG>^ke5zdgUU0
+Z11 OV;C;10.5b;63
+32
+Z12 !s110 1540345575
+!i10b 1
+Z13 !s108 1540345575.000000
+Z14 !s90 -work|work|RAM16.vho|
+Z15 !s107 RAM16.vho|
+!i113 1
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 5 ram16 0 22 GX;MaDgS2YP=N9B7fnf150
+l214
+L47
+V9I?=jd=F^`Rn88l?_>5_R1
+!s100 <`QKT6HZ1WJz>``VeENAe2
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Eram16_vhd_vec_tst
+Z18 w1540345572
+R6
+R7
+R0
+Z19 8Waveform.vwf.vht
+Z20 FWaveform.vwf.vht
+l0
+L32
+V_L^L^:^Wk>Q?kU@6WSL>K3
+!s100 aO3Tdl6N41:7AhD<igIae1
+R11
+32
+R12
+!i10b 1
+R13
+Z21 !s90 -work|work|Waveform.vwf.vht|
+Z22 !s107 Waveform.vwf.vht|
+!i113 1
+R16
+R17
+Aram16_arch
+R6
+R7
+Z23 DEx4 work 17 ram16_vhd_vec_tst 0 22 _L^L^:^Wk>Q?kU@6WSL>K3
+l51
+L34
+Vi@VBFZF943FVN2T54Z:GD3
+!s100 DG@SW><fn1i>@QT>YTCGd2
+R11
+32
+R12
+!i10b 1
+R13
+R21
+R22
+!i113 1
+R16
+R17
