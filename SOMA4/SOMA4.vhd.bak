@@ -1,0 +1,22 @@
+library ieee;
+use std_logic_1164.all;
+use std_logic_arith.all;
+
+entity SOMA4 is 
+port(
+	clk	: 	in 	std_logic;
+	A		:	in 	std_logic_vector (15 downto 0);
+	cout	:	out 	std_logic_vector (15 downto 0);
+);
+end entity SOMA4;
+
+architecture SOMA4_BH of SOMA4 is
+
+begin 
+	process(clk)
+	
+	cout <= A + 4;
+	
+	end process;
+	
+end SOMA4_BH;
