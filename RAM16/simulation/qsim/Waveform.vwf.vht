@@ -19,7 +19,7 @@
 -- the top level entity of the current Quartus project .The user can use this   
 -- testbench to simulate his design using a third-party simulation tool .       
 -- *****************************************************************************
--- Generated on "10/23/2018 22:46:12"
+-- Generated on "10/26/2018 12:51:06"
                                                              
 -- Vhdl Test Bench(with test vectors) for design  :          RAM16
 -- 
@@ -44,7 +44,7 @@ COMPONENT RAM16
 	ADDRESS : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
 	CLOCK : IN STD_LOGIC;
 	DATAIN : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
-	DATAOUT : OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
+	DATAOUT : BUFFER STD_LOGIC_VECTOR(15 DOWNTO 0);
 	ROW : IN STD_LOGIC
 	);
 END COMPONENT;
@@ -62,46 +62,25 @@ BEGIN
 t_prcs_ADDRESS_3: PROCESS
 BEGIN
 	ADDRESS(3) <= '0';
-	WAIT FOR 400000 ps;
-	ADDRESS(3) <= '1';
-	WAIT FOR 400000 ps;
-	ADDRESS(3) <= '0';
 WAIT;
 END PROCESS t_prcs_ADDRESS_3;
 -- ADDRESS[2]
 t_prcs_ADDRESS_2: PROCESS
 BEGIN
-	FOR i IN 1 TO 2
-	LOOP
-		ADDRESS(2) <= '0';
-		WAIT FOR 200000 ps;
-		ADDRESS(2) <= '1';
-		WAIT FOR 200000 ps;
-	END LOOP;
 	ADDRESS(2) <= '0';
 WAIT;
 END PROCESS t_prcs_ADDRESS_2;
 -- ADDRESS[1]
 t_prcs_ADDRESS_1: PROCESS
 BEGIN
-LOOP
 	ADDRESS(1) <= '0';
-	WAIT FOR 100000 ps;
-	ADDRESS(1) <= '1';
-	WAIT FOR 100000 ps;
-	IF (NOW >= 1000000 ps) THEN WAIT; END IF;
-END LOOP;
+WAIT;
 END PROCESS t_prcs_ADDRESS_1;
 -- ADDRESS[0]
 t_prcs_ADDRESS_0: PROCESS
 BEGIN
-LOOP
 	ADDRESS(0) <= '0';
-	WAIT FOR 50000 ps;
-	ADDRESS(0) <= '1';
-	WAIT FOR 50000 ps;
-	IF (NOW >= 1000000 ps) THEN WAIT; END IF;
-END LOOP;
+WAIT;
 END PROCESS t_prcs_ADDRESS_0;
 
 -- CLOCK
@@ -190,7 +169,7 @@ END PROCESS t_prcs_DATAIN_4;
 -- DATAIN[3]
 t_prcs_DATAIN_3: PROCESS
 BEGIN
-	DATAIN(3) <= '1';
+	DATAIN(3) <= '0';
 WAIT;
 END PROCESS t_prcs_DATAIN_3;
 -- DATAIN[2]
@@ -215,12 +194,16 @@ END PROCESS t_prcs_DATAIN_0;
 -- ROW
 t_prcs_ROW: PROCESS
 BEGIN
-LOOP
+	FOR i IN 1 TO 16
+	LOOP
+		ROW <= '0';
+		WAIT FOR 30000 ps;
+		ROW <= '1';
+		WAIT FOR 30000 ps;
+	END LOOP;
 	ROW <= '0';
-	WAIT FOR 50000 ps;
+	WAIT FOR 30000 ps;
 	ROW <= '1';
-	WAIT FOR 50000 ps;
-	IF (NOW >= 1000000 ps) THEN WAIT; END IF;
-END LOOP;
+WAIT;
 END PROCESS t_prcs_ROW;
 END RAM16_arch;

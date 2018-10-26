@@ -1,0 +1,17 @@
+pinagem:
+clock;
+ROW de read or write, para saber se vamos ler ou escrever nessa memória.
+ADDRESS para saber o endereço no array.
+DATAIN dado a ser escrito.
+DATAOUT dado a ser lido.
+
+Arquitetura:
+um vetor de 16 posições de 16 bits. 
+quando o clock for 1 e a ROW for 0 ele vai estar no mode de armazenamento.
+o que estiver no DATAIN vai ser colocado na posição do array correspondendo a ADDRESS.
+
+quando ROW for 1, o que estiver na posição de ADDRESS é colocado em DATAOUT para ser lido.
+
+no exemplo da waveform:
+o endereço foi setado como o mesmo para demonstrar que o dado escrito nesse endereço é o mesmo que o dado 
+lido no mesmo endereço.

@@ -1,8 +1,8 @@
 /*<simulation_settings>
-<ftestbench_cmd>quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off RAM16 -c RAM16 --vector_source="C:/Users/Pichau/Documents/RAM16/Waveform.vwf" --testbench_file="C:/Users/Pichau/Documents/RAM16/simulation/qsim/Waveform.vwf.vht"</ftestbench_cmd>
-<ttestbench_cmd>quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off RAM16 -c RAM16 --vector_source="C:/Users/Pichau/Documents/RAM16/Waveform.vwf" --testbench_file="C:/Users/Pichau/Documents/RAM16/simulation/qsim/Waveform.vwf.vht"</ttestbench_cmd>
-<fnetlist_cmd>quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/Users/Pichau/Documents/RAM16/simulation/qsim/" RAM16 -c RAM16</fnetlist_cmd>
-<tnetlist_cmd>quartus_eda --write_settings_files=off --simulation --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=vhdl --output_directory="C:/Users/Pichau/Documents/RAM16/simulation/qsim/" RAM16 -c RAM16</tnetlist_cmd>
+<ftestbench_cmd>quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off RAM16 -c RAM16 --vector_source="C:/Users/Pichau/Documents/LaboratórioVHDL/RAM16/Waveform.vwf" --testbench_file="C:/Users/Pichau/Documents/LaboratórioVHDL/RAM16/simulation/qsim/Waveform.vwf.vht"</ftestbench_cmd>
+<ttestbench_cmd>quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off RAM16 -c RAM16 --vector_source="C:/Users/Pichau/Documents/LaboratórioVHDL/RAM16/Waveform.vwf" --testbench_file="C:/Users/Pichau/Documents/LaboratórioVHDL/RAM16/simulation/qsim/Waveform.vwf.vht"</ttestbench_cmd>
+<fnetlist_cmd>quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/Users/Pichau/Documents/LaboratórioVHDL/RAM16/simulation/qsim/" RAM16 -c RAM16</fnetlist_cmd>
+<tnetlist_cmd>quartus_eda --write_settings_files=off --simulation --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=vhdl --output_directory="C:/Users/Pichau/Documents/LaboratórioVHDL/RAM16/simulation/qsim/" RAM16 -c RAM16</tnetlist_cmd>
 <modelsim_script>onerror {exit -code 1}
 vlib work
 vcom -work work RAM16.vho
@@ -491,13 +491,7 @@ TRANSITION_LIST("ADDRESS[3]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 1;
-			LEVEL 0 FOR 400.0;
-			LEVEL 1 FOR 400.0;
-		}
-		LEVEL 0 FOR 200.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -506,13 +500,7 @@ TRANSITION_LIST("ADDRESS[2]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 0 FOR 200.0;
-			LEVEL 1 FOR 200.0;
-		}
-		LEVEL 0 FOR 200.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -521,12 +509,7 @@ TRANSITION_LIST("ADDRESS[1]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 5;
-			LEVEL 0 FOR 100.0;
-			LEVEL 1 FOR 100.0;
-		}
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -535,12 +518,7 @@ TRANSITION_LIST("ADDRESS[0]")
 	NODE
 	{
 		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 10;
-			LEVEL 0 FOR 50.0;
-			LEVEL 1 FOR 50.0;
-		}
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -671,7 +649,7 @@ TRANSITION_LIST("DATAIN[3]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -853,10 +831,12 @@ TRANSITION_LIST("ROW")
 		REPEAT = 1;
 		NODE
 		{
-			REPEAT = 10;
-			LEVEL 0 FOR 50.0;
-			LEVEL 1 FOR 50.0;
+			REPEAT = 16;
+			LEVEL 0 FOR 30.0;
+			LEVEL 1 FOR 30.0;
 		}
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
 	}
 }
 

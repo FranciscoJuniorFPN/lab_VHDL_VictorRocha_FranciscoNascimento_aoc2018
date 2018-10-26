@@ -1,0 +1,14 @@
+pinagem:
+A, B são os números de entrada
+cin: carry in
+cout: carry out
+sum: resultado da soma
+
+arquitetura do somador:
+Um somador é basicamente um xor que precisa tratar o caso de "vai um".
+então fiz um array para andar sobre o array de bits e fazendo xor com A, B e cin.
+para descobrir se realmente vai ter carry é usado um and para saber se houve caso de A e B seram um ou se o xor entre eles AND cin foi igual a 1;
+
+Depois de andar por todo o array, o valor é depositado em soma.
+
+teste: somei 4 e 2 e recebi 6.

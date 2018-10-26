@@ -1,0 +1,15 @@
+pinagem:
+ReadReg1: espaço do registrador de leitura 1
+ReadReg2: espaço do registrador de leitura 2
+WriteReg: espaço do registrador de escrita
+WriteData: dado a ser escrito
+RegWrite: quando acionado, escreva na posição do array de WriteReg
+ReadData1: informação a ser lida 1
+ReadData2: informação a ser lida 2
+
+teste:
+no teste eu apontei para dois endereços do banco (0001 e 0010),
+a minha entrada é 00000000000000001, 
+quando RegWrite foi acionada, o meu dado de entrada foi escrito na posição do meu WriteReg
+A prova disso é a leitura da minha ReadData 1 no mesmo endereço, que me retorna o valor lido e prova que ele 
+conseguiu ser armazenado.

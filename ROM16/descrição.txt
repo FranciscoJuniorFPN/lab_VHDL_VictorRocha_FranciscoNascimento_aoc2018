@@ -1,0 +1,9 @@
+Pinagem:
+PC_address: o endereço para saber onde apontar no array
+INSTRUCTION: saída da instrução.
+
+arquitetura:
+criei um array para guardar instruções, que pode ser apontado pelo endereço do PC
+
+teste:
+para cada endereço do PC é possível ver que o INSTRUCTION retorna a instrução referente.

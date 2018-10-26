@@ -1,0 +1,12 @@
+pinagem:
+clk: clock
+A: é o numero de entrada
+cin: é o carry in para a soma
+cout: também para a soma
+sum: para dar o resultado da soma 
+
+arquitetura:
+usando uma constante de 4 chamada quatro, eu somo o valor de A com quatro
+e retorno em sum.
+
+teste: eu coloquei 0000000000000001 em A e o sum for 00000000000000101 que é 5

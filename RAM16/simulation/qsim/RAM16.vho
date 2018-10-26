@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition"
 
--- DATE "10/23/2018 22:46:14"
+-- DATE "10/26/2018 12:51:09"
 
 -- 
 -- Device: Altera 5CGXFC7C7F23C8 Package FBGA484
@@ -40,7 +40,7 @@ ENTITY 	RAM16 IS
 	ROW : IN std_logic;
 	ADDRESS : IN std_logic_vector(3 DOWNTO 0);
 	DATAIN : IN std_logic_vector(15 DOWNTO 0);
-	DATAOUT : OUT std_logic_vector(15 DOWNTO 0)
+	DATAOUT : BUFFER std_logic_vector(15 DOWNTO 0)
 	);
 END RAM16;
 

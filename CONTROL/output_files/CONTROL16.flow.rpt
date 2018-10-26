@@ -1,5 +1,5 @@
 Flow report for CONTROL16
-Fri Oct 26 11:54:19 2018
+Fri Oct 26 14:12:21 2018
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -38,29 +38,29 @@ agreement for further details.
 
 
 
-+-------------------------------------------------------------------------------+
-; Flow Summary                                                                  ;
-+---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Fri Oct 26 11:54:19 2018       ;
-; Quartus Prime Version           ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
-; Revision Name                   ; CONTROL16                                   ;
-; Top-level Entity Name           ; CONTROL16                                   ;
-; Family                          ; Cyclone V                                   ;
-; Device                          ; 5CGXFC7C7F23C8                              ;
-; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 0                                           ;
-; Total pins                      ; 20                                          ;
-; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 0                                           ;
-; Total DSP Blocks                ; 0                                           ;
-; Total HSSI RX PCSs              ; 0                                           ;
-; Total HSSI PMA RX Deserializers ; 0                                           ;
-; Total HSSI TX PCSs              ; 0                                           ;
-; Total HSSI PMA TX Serializers   ; 0                                           ;
-; Total PLLs                      ; 0                                           ;
-; Total DLLs                      ; 0                                           ;
-+---------------------------------+---------------------------------------------+
++----------------------------------------------------------------------------------------+
+; Flow Summary                                                                           ;
++---------------------------------+------------------------------------------------------+
+; Flow Status                     ; EDA Netlist Writer Failed - Fri Oct 26 14:12:20 2018 ;
+; Quartus Prime Version           ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition          ;
+; Revision Name                   ; CONTROL16                                            ;
+; Top-level Entity Name           ; CONTROL16                                            ;
+; Family                          ; Cyclone V                                            ;
+; Device                          ; 5CGXFC7C7F23C8                                       ;
+; Timing Models                   ; Final                                                ;
+; Logic utilization (in ALMs)     ; N/A                                                  ;
+; Total registers                 ; 0                                                    ;
+; Total pins                      ; 20                                                   ;
+; Total virtual pins              ; 0                                                    ;
+; Total block memory bits         ; 0                                                    ;
+; Total DSP Blocks                ; 0                                                    ;
+; Total HSSI RX PCSs              ; 0                                                    ;
+; Total HSSI PMA RX Deserializers ; 0                                                    ;
+; Total HSSI TX PCSs              ; 0                                                    ;
+; Total HSSI PMA TX Serializers   ; 0                                                    ;
+; Total PLLs                      ; 0                                                    ;
+; Total DLLs                      ; 0                                                    ;
++---------------------------------+------------------------------------------------------+
 
 
 +-----------------------------------------+
@@ -102,7 +102,9 @@ agreement for further details.
 ; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4737 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4733 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4737 MB             ; 00:00:01                           ;
-; Total                ; 00:00:17     ; --                      ; --                  ; 00:00:33                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4733 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4733 MB             ; 00:00:01                           ;
+; Total                ; 00:00:18     ; --                      ; --                  ; 00:00:35                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -112,6 +114,8 @@ agreement for further details.
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
 ; Analysis & Synthesis ; DESKTOP-MA6K2FJ  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-MA6K2FJ  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-MA6K2FJ  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-MA6K2FJ  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-MA6K2FJ  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-MA6K2FJ  ; Windows 10 ; 10.0       ; x86_64         ;
@@ -127,6 +131,8 @@ quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_f
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Users/Pichau/Documents/CONTROL/simulation/qsim/ CONTROL16 -c CONTROL16
 quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off CONTROL16 -c CONTROL16 --vector_source=C:/Users/Pichau/Documents/CONTROL/Waveform.vwf --testbench_file=C:/Users/Pichau/Documents/CONTROL/simulation/qsim/Waveform.vwf.vht
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Users/Pichau/Documents/CONTROL/simulation/qsim/ CONTROL16 -c CONTROL16
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off CONTROL16 -c CONTROL16 --vector_source=C:/Users/Pichau/Documents/CONTROL/Waveform.vwf --testbench_file=C:/Users/Pichau/Documents/CONTROL/simulation/qsim/Waveform.vwf.vht
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off CONTROL16 -c CONTROL16 --vector_source=C:/Users/Pichau/Documents/CONTROL/Waveform.vwf --testbench_file=C:/Users/Pichau/Documents/CONTROL/simulation/qsim/Waveform.vwf.vht
 
 
 
