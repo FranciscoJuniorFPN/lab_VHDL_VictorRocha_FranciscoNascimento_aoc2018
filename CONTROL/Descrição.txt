@@ -1,0 +1,20 @@
+Unidade de controle baseada na do livro Halliday
+pinagem:
+clk: clock;
+opcode: é o código de 4 bits que é lido pela Memória de instrução;
+
+flags a serem acionadas:
+regDest: quando acionado, é o registrador de destino onde será escrito o resultado da operação
+ulaFonte: esse aqui é pra saber se o operando da ula vai ser o segundo elemento do banco de registradores quando 1, ou o elemento do extensor de sinal, caso estajaoms fazendo um branch, então 0.
+memParaReg: 1 para saber se o registrador de escrita vem da ULA ou 0 se vem da memória de dados 
+escReg: quando 1 não tem efeito, quando 0 o registrador a ser escrito é escrito com o valor na entrada Dado de Escrita
+lerMem: sem efeito quando acionado, o conteúdo da memória designado pela entrada de endereço é colocado na saída dado lido.
+escMem: o conteúdo da memória a designado pela entrada de endereço é substituido pelo valor presente na entrada Dado a ser Escrito.
+desvio: quando 1, aciona jump
+ulaOP: array de 8 bits que setam a operação na ula.
+
+Teste:
+clock de 50 ns para facilitar a leitura,
+opcode com 50 para setar alguns valores de estado,
+quando clock for borda alta, a ula op e os elemento são acionados igualmente como descrito.
+ex: opcode 0011 e ulaOP 00101000.

@@ -1,0 +1,38 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+-- implentação da unidade de controle que recebe 4 bits de OPcode e sem campo funct.
+
+entity CONTROL16 is
+port(
+	clk			: 	in std_logic_vector;
+	opcode		:	in	std_logic_vector (3 downto 0);
+	regDst		: 	out std_logic;
+	ulaFont		:	out std_logic;
+	memParaReg	:	out std_logic;
+	escReg		:	out std_logic;
+	lerMem		:	out std_logic;
+	escMem		:	out std_logic;
+	desvio		:	out std_logic;
+	ulaOP			: 	out std_logic_vector (3 downto 0)
+);
+end entity CONTROL16;
+
+architecture CONTROL16_BH of CONTROL16 is 
+
+begin
+	process(clk)
+		
+		case opcode is
+			
+			when '0001' =>
+				regDst <= 1;
+				ulaFont <= 0;		
+				memParaReg <= 0;
+				escReg <= 1;
+				lerMem <= 0;
+				escMem <= 0;
+				desvio <= 0;
+				ulaOP <= '0000';
+	end process;
+end CONTROL16_BH;
