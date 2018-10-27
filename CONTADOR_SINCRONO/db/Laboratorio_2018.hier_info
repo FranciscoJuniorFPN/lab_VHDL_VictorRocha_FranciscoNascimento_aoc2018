@@ -1,0 +1,9 @@
+|CONTADOR_SICRONO
+clk => ~NO_FANOUT~
+s[0] <> <UNC>
+s[1] <> <UNC>
+s[2] <> <UNC>
+s[3] <> <UNC>
+s[4] <> <UNC>
+
+
