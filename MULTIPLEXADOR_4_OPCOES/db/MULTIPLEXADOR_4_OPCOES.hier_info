@@ -1,0 +1,371 @@
+|MULTIPLEXADOR_16BITS
+a[0] => MULTIPLEXADOR_1BIT:G00.a
+a[1] => MULTIPLEXADOR_1BIT:G01.a
+a[2] => MULTIPLEXADOR_1BIT:G02.a
+a[3] => MULTIPLEXADOR_1BIT:G03.a
+a[4] => MULTIPLEXADOR_1BIT:G04.a
+a[5] => MULTIPLEXADOR_1BIT:G05.a
+a[6] => MULTIPLEXADOR_1BIT:G06.a
+a[7] => MULTIPLEXADOR_1BIT:G07.a
+a[8] => MULTIPLEXADOR_1BIT:G08.a
+a[9] => MULTIPLEXADOR_1BIT:G09.a
+a[10] => MULTIPLEXADOR_1BIT:G10.a
+a[11] => MULTIPLEXADOR_1BIT:G11.a
+a[12] => MULTIPLEXADOR_1BIT:G12.a
+a[13] => MULTIPLEXADOR_1BIT:G13.a
+a[14] => MULTIPLEXADOR_1BIT:G14.a
+a[15] => MULTIPLEXADOR_1BIT:G15.a
+b[0] => MULTIPLEXADOR_1BIT:G00.b
+b[1] => MULTIPLEXADOR_1BIT:G01.b
+b[2] => MULTIPLEXADOR_1BIT:G02.b
+b[3] => MULTIPLEXADOR_1BIT:G03.b
+b[4] => MULTIPLEXADOR_1BIT:G04.b
+b[5] => MULTIPLEXADOR_1BIT:G05.b
+b[6] => MULTIPLEXADOR_1BIT:G06.b
+b[7] => MULTIPLEXADOR_1BIT:G07.b
+b[8] => MULTIPLEXADOR_1BIT:G08.b
+b[9] => MULTIPLEXADOR_1BIT:G09.b
+b[10] => MULTIPLEXADOR_1BIT:G10.b
+b[11] => MULTIPLEXADOR_1BIT:G11.b
+b[12] => MULTIPLEXADOR_1BIT:G12.b
+b[13] => MULTIPLEXADOR_1BIT:G13.b
+b[14] => MULTIPLEXADOR_1BIT:G14.b
+b[15] => MULTIPLEXADOR_1BIT:G15.b
+c[0] => MULTIPLEXADOR_1BIT:G00.c
+c[1] => MULTIPLEXADOR_1BIT:G01.c
+c[2] => MULTIPLEXADOR_1BIT:G02.c
+c[3] => MULTIPLEXADOR_1BIT:G03.c
+c[4] => MULTIPLEXADOR_1BIT:G04.c
+c[5] => MULTIPLEXADOR_1BIT:G05.c
+c[6] => MULTIPLEXADOR_1BIT:G06.c
+c[7] => MULTIPLEXADOR_1BIT:G07.c
+c[8] => MULTIPLEXADOR_1BIT:G08.c
+c[9] => MULTIPLEXADOR_1BIT:G09.c
+c[10] => MULTIPLEXADOR_1BIT:G10.c
+c[11] => MULTIPLEXADOR_1BIT:G11.c
+c[12] => MULTIPLEXADOR_1BIT:G12.c
+c[13] => MULTIPLEXADOR_1BIT:G13.c
+c[14] => MULTIPLEXADOR_1BIT:G14.c
+c[15] => MULTIPLEXADOR_1BIT:G15.c
+d[0] => MULTIPLEXADOR_1BIT:G00.d
+d[1] => MULTIPLEXADOR_1BIT:G01.d
+d[2] => MULTIPLEXADOR_1BIT:G02.d
+d[3] => MULTIPLEXADOR_1BIT:G03.d
+d[4] => MULTIPLEXADOR_1BIT:G04.d
+d[5] => MULTIPLEXADOR_1BIT:G05.d
+d[6] => MULTIPLEXADOR_1BIT:G06.d
+d[7] => MULTIPLEXADOR_1BIT:G07.d
+d[8] => MULTIPLEXADOR_1BIT:G08.d
+d[9] => MULTIPLEXADOR_1BIT:G09.d
+d[10] => MULTIPLEXADOR_1BIT:G10.d
+d[11] => MULTIPLEXADOR_1BIT:G11.d
+d[12] => MULTIPLEXADOR_1BIT:G12.d
+d[13] => MULTIPLEXADOR_1BIT:G13.d
+d[14] => MULTIPLEXADOR_1BIT:G14.d
+d[15] => MULTIPLEXADOR_1BIT:G15.d
+selector[0] => MULTIPLEXADOR_1BIT:G00.selector[0]
+selector[0] => MULTIPLEXADOR_1BIT:G01.selector[0]
+selector[0] => MULTIPLEXADOR_1BIT:G02.selector[0]
+selector[0] => MULTIPLEXADOR_1BIT:G03.selector[0]
+selector[0] => MULTIPLEXADOR_1BIT:G04.selector[0]
+selector[0] => MULTIPLEXADOR_1BIT:G05.selector[0]
+selector[0] => MULTIPLEXADOR_1BIT:G06.selector[0]
+selector[0] => MULTIPLEXADOR_1BIT:G07.selector[0]
+selector[0] => MULTIPLEXADOR_1BIT:G08.selector[0]
+selector[0] => MULTIPLEXADOR_1BIT:G09.selector[0]
+selector[0] => MULTIPLEXADOR_1BIT:G10.selector[0]
+selector[0] => MULTIPLEXADOR_1BIT:G11.selector[0]
+selector[0] => MULTIPLEXADOR_1BIT:G12.selector[0]
+selector[0] => MULTIPLEXADOR_1BIT:G13.selector[0]
+selector[0] => MULTIPLEXADOR_1BIT:G14.selector[0]
+selector[0] => MULTIPLEXADOR_1BIT:G15.selector[0]
+selector[1] => MULTIPLEXADOR_1BIT:G00.selector[1]
+selector[1] => MULTIPLEXADOR_1BIT:G01.selector[1]
+selector[1] => MULTIPLEXADOR_1BIT:G02.selector[1]
+selector[1] => MULTIPLEXADOR_1BIT:G03.selector[1]
+selector[1] => MULTIPLEXADOR_1BIT:G04.selector[1]
+selector[1] => MULTIPLEXADOR_1BIT:G05.selector[1]
+selector[1] => MULTIPLEXADOR_1BIT:G06.selector[1]
+selector[1] => MULTIPLEXADOR_1BIT:G07.selector[1]
+selector[1] => MULTIPLEXADOR_1BIT:G08.selector[1]
+selector[1] => MULTIPLEXADOR_1BIT:G09.selector[1]
+selector[1] => MULTIPLEXADOR_1BIT:G10.selector[1]
+selector[1] => MULTIPLEXADOR_1BIT:G11.selector[1]
+selector[1] => MULTIPLEXADOR_1BIT:G12.selector[1]
+selector[1] => MULTIPLEXADOR_1BIT:G13.selector[1]
+selector[1] => MULTIPLEXADOR_1BIT:G14.selector[1]
+selector[1] => MULTIPLEXADOR_1BIT:G15.selector[1]
+q[0] << MULTIPLEXADOR_1BIT:G00.x
+q[1] << MULTIPLEXADOR_1BIT:G01.x
+q[2] << MULTIPLEXADOR_1BIT:G02.x
+q[3] << MULTIPLEXADOR_1BIT:G03.x
+q[4] << MULTIPLEXADOR_1BIT:G04.x
+q[5] << MULTIPLEXADOR_1BIT:G05.x
+q[6] << MULTIPLEXADOR_1BIT:G06.x
+q[7] << MULTIPLEXADOR_1BIT:G07.x
+q[8] << MULTIPLEXADOR_1BIT:G08.x
+q[9] << MULTIPLEXADOR_1BIT:G09.x
+q[10] << MULTIPLEXADOR_1BIT:G10.x
+q[11] << MULTIPLEXADOR_1BIT:G11.x
+q[12] << MULTIPLEXADOR_1BIT:G12.x
+q[13] << MULTIPLEXADOR_1BIT:G13.x
+q[14] << MULTIPLEXADOR_1BIT:G14.x
+q[15] << MULTIPLEXADOR_1BIT:G15.x
+
+
+|MULTIPLEXADOR_16BITS|MULTIPLEXADOR_1BIT:G00
+a => q0.IN0
+b => q1.IN0
+c => q2.IN0
+d => q3.IN0
+selector[0] => q1.IN1
+selector[0] => q3.IN1
+selector[0] => q0.IN1
+selector[0] => q2.IN1
+selector[1] => q2.IN1
+selector[1] => q3.IN1
+selector[1] => q0.IN1
+selector[1] => q1.IN1
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MULTIPLEXADOR_16BITS|MULTIPLEXADOR_1BIT:G01
+a => q0.IN0
+b => q1.IN0
+c => q2.IN0
+d => q3.IN0
+selector[0] => q1.IN1
+selector[0] => q3.IN1
+selector[0] => q0.IN1
+selector[0] => q2.IN1
+selector[1] => q2.IN1
+selector[1] => q3.IN1
+selector[1] => q0.IN1
+selector[1] => q1.IN1
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MULTIPLEXADOR_16BITS|MULTIPLEXADOR_1BIT:G02
+a => q0.IN0
+b => q1.IN0
+c => q2.IN0
+d => q3.IN0
+selector[0] => q1.IN1
+selector[0] => q3.IN1
+selector[0] => q0.IN1
+selector[0] => q2.IN1
+selector[1] => q2.IN1
+selector[1] => q3.IN1
+selector[1] => q0.IN1
+selector[1] => q1.IN1
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MULTIPLEXADOR_16BITS|MULTIPLEXADOR_1BIT:G03
+a => q0.IN0
+b => q1.IN0
+c => q2.IN0
+d => q3.IN0
+selector[0] => q1.IN1
+selector[0] => q3.IN1
+selector[0] => q0.IN1
+selector[0] => q2.IN1
+selector[1] => q2.IN1
+selector[1] => q3.IN1
+selector[1] => q0.IN1
+selector[1] => q1.IN1
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MULTIPLEXADOR_16BITS|MULTIPLEXADOR_1BIT:G04
+a => q0.IN0
+b => q1.IN0
+c => q2.IN0
+d => q3.IN0
+selector[0] => q1.IN1
+selector[0] => q3.IN1
+selector[0] => q0.IN1
+selector[0] => q2.IN1
+selector[1] => q2.IN1
+selector[1] => q3.IN1
+selector[1] => q0.IN1
+selector[1] => q1.IN1
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MULTIPLEXADOR_16BITS|MULTIPLEXADOR_1BIT:G05
+a => q0.IN0
+b => q1.IN0
+c => q2.IN0
+d => q3.IN0
+selector[0] => q1.IN1
+selector[0] => q3.IN1
+selector[0] => q0.IN1
+selector[0] => q2.IN1
+selector[1] => q2.IN1
+selector[1] => q3.IN1
+selector[1] => q0.IN1
+selector[1] => q1.IN1
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MULTIPLEXADOR_16BITS|MULTIPLEXADOR_1BIT:G06
+a => q0.IN0
+b => q1.IN0
+c => q2.IN0
+d => q3.IN0
+selector[0] => q1.IN1
+selector[0] => q3.IN1
+selector[0] => q0.IN1
+selector[0] => q2.IN1
+selector[1] => q2.IN1
+selector[1] => q3.IN1
+selector[1] => q0.IN1
+selector[1] => q1.IN1
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MULTIPLEXADOR_16BITS|MULTIPLEXADOR_1BIT:G07
+a => q0.IN0
+b => q1.IN0
+c => q2.IN0
+d => q3.IN0
+selector[0] => q1.IN1
+selector[0] => q3.IN1
+selector[0] => q0.IN1
+selector[0] => q2.IN1
+selector[1] => q2.IN1
+selector[1] => q3.IN1
+selector[1] => q0.IN1
+selector[1] => q1.IN1
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MULTIPLEXADOR_16BITS|MULTIPLEXADOR_1BIT:G08
+a => q0.IN0
+b => q1.IN0
+c => q2.IN0
+d => q3.IN0
+selector[0] => q1.IN1
+selector[0] => q3.IN1
+selector[0] => q0.IN1
+selector[0] => q2.IN1
+selector[1] => q2.IN1
+selector[1] => q3.IN1
+selector[1] => q0.IN1
+selector[1] => q1.IN1
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MULTIPLEXADOR_16BITS|MULTIPLEXADOR_1BIT:G09
+a => q0.IN0
+b => q1.IN0
+c => q2.IN0
+d => q3.IN0
+selector[0] => q1.IN1
+selector[0] => q3.IN1
+selector[0] => q0.IN1
+selector[0] => q2.IN1
+selector[1] => q2.IN1
+selector[1] => q3.IN1
+selector[1] => q0.IN1
+selector[1] => q1.IN1
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MULTIPLEXADOR_16BITS|MULTIPLEXADOR_1BIT:G10
+a => q0.IN0
+b => q1.IN0
+c => q2.IN0
+d => q3.IN0
+selector[0] => q1.IN1
+selector[0] => q3.IN1
+selector[0] => q0.IN1
+selector[0] => q2.IN1
+selector[1] => q2.IN1
+selector[1] => q3.IN1
+selector[1] => q0.IN1
+selector[1] => q1.IN1
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MULTIPLEXADOR_16BITS|MULTIPLEXADOR_1BIT:G11
+a => q0.IN0
+b => q1.IN0
+c => q2.IN0
+d => q3.IN0
+selector[0] => q1.IN1
+selector[0] => q3.IN1
+selector[0] => q0.IN1
+selector[0] => q2.IN1
+selector[1] => q2.IN1
+selector[1] => q3.IN1
+selector[1] => q0.IN1
+selector[1] => q1.IN1
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MULTIPLEXADOR_16BITS|MULTIPLEXADOR_1BIT:G12
+a => q0.IN0
+b => q1.IN0
+c => q2.IN0
+d => q3.IN0
+selector[0] => q1.IN1
+selector[0] => q3.IN1
+selector[0] => q0.IN1
+selector[0] => q2.IN1
+selector[1] => q2.IN1
+selector[1] => q3.IN1
+selector[1] => q0.IN1
+selector[1] => q1.IN1
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MULTIPLEXADOR_16BITS|MULTIPLEXADOR_1BIT:G13
+a => q0.IN0
+b => q1.IN0
+c => q2.IN0
+d => q3.IN0
+selector[0] => q1.IN1
+selector[0] => q3.IN1
+selector[0] => q0.IN1
+selector[0] => q2.IN1
+selector[1] => q2.IN1
+selector[1] => q3.IN1
+selector[1] => q0.IN1
+selector[1] => q1.IN1
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MULTIPLEXADOR_16BITS|MULTIPLEXADOR_1BIT:G14
+a => q0.IN0
+b => q1.IN0
+c => q2.IN0
+d => q3.IN0
+selector[0] => q1.IN1
+selector[0] => q3.IN1
+selector[0] => q0.IN1
+selector[0] => q2.IN1
+selector[1] => q2.IN1
+selector[1] => q3.IN1
+selector[1] => q0.IN1
+selector[1] => q1.IN1
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MULTIPLEXADOR_16BITS|MULTIPLEXADOR_1BIT:G15
+a => q0.IN0
+b => q1.IN0
+c => q2.IN0
+d => q3.IN0
+selector[0] => q1.IN1
+selector[0] => q3.IN1
+selector[0] => q0.IN1
+selector[0] => q2.IN1
+selector[1] => q2.IN1
+selector[1] => q3.IN1
+selector[1] => q0.IN1
+selector[1] => q1.IN1
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+
+

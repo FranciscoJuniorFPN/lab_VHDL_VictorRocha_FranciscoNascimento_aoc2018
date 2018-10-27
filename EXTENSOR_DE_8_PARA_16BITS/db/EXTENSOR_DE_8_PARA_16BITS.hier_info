@@ -1,0 +1,27 @@
+|EXTENSOR_DE_8_PARA_16BITS
+a[0] => s[0].DATAIN
+a[1] => s[1].DATAIN
+a[2] => s[2].DATAIN
+a[3] => s[3].DATAIN
+a[4] => s[4].DATAIN
+a[5] => s[5].DATAIN
+a[6] => s[6].DATAIN
+a[7] => s[7].DATAIN
+s[0] <= a[0].DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= a[1].DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= a[2].DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= a[3].DB_MAX_OUTPUT_PORT_TYPE
+s[4] <= a[4].DB_MAX_OUTPUT_PORT_TYPE
+s[5] <= a[5].DB_MAX_OUTPUT_PORT_TYPE
+s[6] <= a[6].DB_MAX_OUTPUT_PORT_TYPE
+s[7] <= a[7].DB_MAX_OUTPUT_PORT_TYPE
+s[8] <= <GND>
+s[9] <= <GND>
+s[10] <= <GND>
+s[11] <= <GND>
+s[12] <= <GND>
+s[13] <= <GND>
+s[14] <= <GND>
+s[15] <= <GND>
+
+

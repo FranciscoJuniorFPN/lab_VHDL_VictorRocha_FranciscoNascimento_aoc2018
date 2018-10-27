@@ -1,0 +1,26 @@
+|FlipFlopD
+d => LatchD:G01.d
+clk => LatchD:G01.enable
+clk => LatchD:G02.enable
+q0 <> LatchD:G02.q0
+q1 <> LatchD:G02.q1
+
+
+|FlipFlopD|LatchD:G01
+d => r.IN0
+d => s.IN0
+enable => r.IN1
+enable => s.IN1
+q0 <> q0
+q1 <> q1
+
+
+|FlipFlopD|LatchD:G02
+d => r.IN0
+d => s.IN0
+enable => r.IN1
+enable => s.IN1
+q0 <> q0
+q1 <> q1
+
+
