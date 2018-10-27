@@ -1,0 +1,29 @@
+|FSM
+clk => SD.IN1
+clk => SC.IN1
+clk => SB.IN1
+clk => SA.IN1
+clk => estado.A.IN1
+P => Selector6.IN3
+P => Selector8.IN1
+P => Selector10.IN1
+P => Selector11.IN3
+P => Selector2.IN3
+P => Selector12.IN1
+P => Selector11.IN2
+P => Selector1.IN1
+rst => SA$latch.PRESET
+rst => estado.D_138.ACLR
+rst => estado.C_149.ACLR
+rst => estado.B_160.ACLR
+rst => estado.A_171.PRESET
+rst => SB.IN1
+rst => SC.IN1
+rst => SD.IN1
+SA <= SA$latch.DB_MAX_OUTPUT_PORT_TYPE
+SB <= SB$latch.DB_MAX_OUTPUT_PORT_TYPE
+SC <= SC$latch.DB_MAX_OUTPUT_PORT_TYPE
+SD <= SD$latch.DB_MAX_OUTPUT_PORT_TYPE
+R <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+

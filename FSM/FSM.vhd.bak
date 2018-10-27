@@ -1,0 +1,10 @@
+library ieee;
+use std_logic_1164.all;
+
+entity FSM is 
+port(
+	clk:	in 	std_logic;
+	P 	: 	in		std_logic;
+	
+	
+);
